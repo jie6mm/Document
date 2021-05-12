@@ -1,7 +1,7 @@
 <details>
 <summary>文章概要:</summary>
 <pre hidden>
-outline:
+information:
     author: jie6mm
     title: kvm:常用命令
     desc:
