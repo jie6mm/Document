@@ -1,12 +1,14 @@
 # kvm:常用命令
 
 
-## yum安装
+## 服务安装及启用
+
+yum安装
 ```shell
 yum install virt-* libvirt qemu-img
 ```
 
-## 启用服务
+启用服务
 ```shell
 systemctl start libvirtd
 
@@ -15,6 +17,8 @@ systemctl enable libvirtd
 
 
 ## virt
+
+安装一个虚拟机
 ```shell
 virt-install \
 --name {vm-name} \
