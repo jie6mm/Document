@@ -34,15 +34,18 @@ configure:
 ```
 
 ### information配置说明:
-| 参数 | 类型 | 说明 |
-|:----:|:----:|:----:|
-| author | string | 作者 |
-| title | string | 标题 |
-| desc | string | 详情描述 |
-| date | date | 创建时间 |
-| update-time | date | 更新时间 |
+| 参数 | 类型 | 必填 | 说明 |
+|:----:|:----:|:----:|:----:|
+| author | string | required | 作者 |
+| title | string | required | 标题 |
+| desc | string | optional | 详情描述 |
+| date | date | optional | 创建时间 |
+| update-time | optional | date | 更新时间 |
+| type | string | optional | 分类 |
+| tags | list | optional | 标签 |
+| series | string | optional | 系列 |
 
 ### configure配置说明:
-| 参数 | 类型 | 说明 |
-|:----:|:----:|:----:|
-| skip | boolean | 博客化时是否跳过该文件，默认值false |
+| 参数 | 类型 | 必填 | 说明 |
+|:----:|:----:|:----:|:----:|
+| skip | boolean | optional | 博客化时是否跳过该文件，默认值false |
