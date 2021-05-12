@@ -3,7 +3,7 @@
 <pre hidden>
 information:
     author: jie6mm
-    title: kvm:常用命令
+    title: kvm常用命令
     desc:
     type: linux/kvm
     tags:
@@ -13,7 +13,7 @@ information:
 </pre>
 </details>
 
-# kvm:常用命令
+# kvm常用命令
 
 
 ## 服务安装及启用
