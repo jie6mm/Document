@@ -1,10 +1,14 @@
 <details>
-<summary></summary>
-tille: kvm:常用命令
-desc:
-type: linux/kvm
-series: command
-date: 2021-05-12 15:43:00
+<summary>文章概要:</summary>
+<pre hidden>
+outline:
+    author: jie6mm
+    title: kvm:常用命令
+    desc:
+    type: linux/kvm
+    series: command
+    date: 2021-05-12 15:43:00
+</pre>
 </details>
 
 # kvm:常用命令
