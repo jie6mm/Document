@@ -1,3 +1,12 @@
+<details>
+<summary>kvm:常用命令</summary>
+tille: kvm:常用命令
+desc:
+type: linux/kvm
+series: command
+date: 2021-05-12 15:43:00
+</details>
+
 # kvm:常用命令
 
 
