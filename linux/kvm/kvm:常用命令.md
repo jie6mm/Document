@@ -1,5 +1,5 @@
 <details>
-<summary>kvm:常用命令</summary>
+<summary></summary>
 tille: kvm:常用命令
 desc:
 type: linux/kvm
