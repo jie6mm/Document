@@ -6,7 +6,9 @@ information:
     title: kvm:常用命令
     desc:
     type: linux/kvm
-    series: command
+    tags:
+        - linux
+    series:
     date: 2021-05-12 15:43:00
 </pre>
 </details>
