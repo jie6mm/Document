@@ -41,7 +41,7 @@ configure:
 | title | string | required | 标题 |
 | desc | string | optional | 详情描述 |
 | date | date | optional | 创建时间 |
-| update-time | optional | date | 更新时间 |
+| update-time | date | optional | 更新时间 |
 | type | string | optional | 分类 |
 | tags | list | optional | 标签 |
 | series | string | optional | 系列 |
