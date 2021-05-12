@@ -35,6 +35,8 @@ information:
         - {tag-1}
         - {tag-2}
     series: {series}
+configure:
+    skip: false
 </pre>
 </details>
 ```
