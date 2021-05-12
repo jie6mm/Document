@@ -19,6 +19,8 @@ configure:
 每篇md文件开头均有文章概要，可为后期博客化埋点  
 文章概要均以以下固定模版为格式  
 详情配置以yaml类型为格式
+
+示例
 ```html
 <details>
 <summary>文章概要:</summary>
@@ -28,6 +30,11 @@ information:
     title: {title}
     desc: {description}
     date: {date}
+    type: {type}
+    tags:
+        - {tag-1}
+        - {tag-2}
+    series: {series}
 configure:
     skip: false
 </pre>
@@ -42,7 +49,7 @@ configure:
 | desc | string | optional | 详情描述 |
 | date | date | optional | 创建时间 |
 | update-time | date | optional | 更新时间 |
-| type | string | optional | 分类 |
+| type | string | optional | 分类，多级分类以/控制 |
 | tags | list | optional | 标签 |
 | series | string | optional | 系列 |
 
