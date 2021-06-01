@@ -20,12 +20,12 @@ information:
 
 ```shell
 ./configure \
---prefix={nginx-home} \
---sbin-path={nginx-home}/sbin \
---modules-path={nginx-home}/modules \
---conf-path={nginx-home}/nginx.conf \
---error-log-path={nginx-logs}/error.log \
---http-log-path={nginx-logs}/access.log \
+--prefix={nginx-home-path} \
+--sbin-path={nginx-home-path}/sbin \
+--modules-path={nginx-home-path}/modules \
+--conf-path={nginx-home-path}/nginx.conf \
+--error-log-path={nginx-logs-path}/error.log \
+--http-log-path={nginx-logs-path}/access.log \
 --pid-path=/var/run/nginx.pid \
 --lock-path=/var/run/nginx.lock \
 --http-client-body-temp-path=/var/cache/nginx/client_temp \
