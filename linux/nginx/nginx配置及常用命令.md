@@ -1,10 +1,31 @@
+<details>
+<summary>文章概要:</summary>
+<pre hidden>
+information:
+    author: jie6mm
+    title: nginx配置及常用命令
+    desc:
+    type: linux/nginx
+    tags:
+        - linux
+        - nginx
+    series: nginx
+    date: 2021-06-01 13:51:00
+</pre>
+</details>
+
+# nginx配置及常用命令
+
+## nginx-configure常用参数
+
+```shell
 ./configure \
---prefix=/home/root/app/nginx \
---sbin-path=/home/root/app/nginx/sbin \
---modules-path=/home/root/app/nginx/modules \
---conf-path=/home/root/app/nginx/nginx.conf \
---error-log-path=/var/log/nginx/error.log \
---http-log-path=/var/log/nginx/access.log \
+--prefix={nginx-home} \
+--sbin-path={nginx-home}/sbin \
+--modules-path={nginx-home}/modules \
+--conf-path={nginx-home}/nginx.conf \
+--error-log-path={nginx-logs}/error.log \
+--http-log-path={nginx-logs}/access.log \
 --pid-path=/var/run/nginx.pid \
 --lock-path=/var/run/nginx.lock \
 --http-client-body-temp-path=/var/cache/nginx/client_temp \
@@ -37,3 +58,8 @@
 --with-stream_realip_module \
 --with-stream_ssl_module \
 --with-stream_ssl_preread_module
+```
+
+## nginx-常用命令
+
+......
