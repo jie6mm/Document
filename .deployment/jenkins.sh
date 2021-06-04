@@ -6,7 +6,7 @@
 # Create-Time: 2021-06-04 11:42:00
 # Update-Time: -
 #*********************************************
-set gitbook-path=/home/root/app/gitbook/gitbook
+var gitbook-path=/home/root/app/gitbook/gitbook
 
 echo "document-jenkins.sh开始执行"
 
