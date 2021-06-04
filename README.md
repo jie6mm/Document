@@ -57,3 +57,4 @@ configure:
 | 参数 | 类型 | 必填 | 说明 |
 |:----:|:----:|:----:|:----:|
 | skip | boolean | optional | 博客化时是否跳过该文件，默认值false |
+| skip | boolean | optional | 博客化时是否跳过该文件，默认值false |
