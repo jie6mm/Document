@@ -9,5 +9,3 @@
 echo "document-jenkins.sh开始执行";
 
 echo "准备开始将代码push到github......"
-
-echo "已成功push至github......"
