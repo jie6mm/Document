@@ -6,10 +6,8 @@
 # Create-Time: 2021-06-04 11:42:00
 # Update-Time: -
 #*********************************************
-var gitbook-path=/home/root/app/gitbook/gitbook
-
 echo "document-jenkins.sh开始执行"
 
-scp -rp ./* root@192.168.50.210:${gitbook-path}
+scp -rp ./* root@192.168.50.210:/home/root/app/gitbook/gitbook
 
-ssh root@192.168.50.210 "sh `${gitbook-path}`/.deployment/gitbook-restart.sh"
+ssh root@192.168.50.210 "sh /home/root/app/gitbook/gitbook/.deployment/gitbook-restart.sh"
