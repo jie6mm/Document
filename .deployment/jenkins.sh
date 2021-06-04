@@ -7,3 +7,5 @@
 # Update-Time: -
 #*********************************************
 echo "document-jenkins.sh开始执行";
+
+scp -r ./* root@192.168.50.210:/home/root/app/gitbook/document
