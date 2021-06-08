@@ -12,6 +12,6 @@ scp -rp ./* root@192.168.50.210:/home/root/app/gitbook/gitbook
 
 pwd
 
-ls -l
+ls -al
 
 ssh root@192.168.50.210 "sh .deployment/gitbook-restart.sh"
