@@ -12,4 +12,6 @@ chmod a+x .deployment/gitbook-restart.sh
 
 scp -rp ./* root@192.168.50.210:/home/root/app/gitbook/gitbook
 
+scp -rp ./.deployment root@192.168.50.210:/home/root/app/gitbook/gitbook
+
 #ssh root@192.168.50.210 "sh "
