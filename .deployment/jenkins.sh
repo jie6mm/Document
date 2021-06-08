@@ -18,6 +18,6 @@ path=$(pwd)
 
 ls -al
 
-sudo chomd a+x gitbook-restart.sh
+chmod a+x gitbook-restart.sh
 
-sudo ssh root@192.168.50.210 "sh ${path}/gitbook-restart.sh"
+ssh root@192.168.50.210 "sh ${path}/gitbook-restart.sh"
