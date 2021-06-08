@@ -12,6 +12,8 @@ scp -rp ./* root@192.168.50.210:/home/root/app/gitbook/gitbook
 
 cd ./.deployment || exit
 
+pwd
+
 path=$(pwd)
 
 ls -al
