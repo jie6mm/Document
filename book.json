@@ -1,5 +1,19 @@
 {
+  "title" : "This Gitbook",
+  "author" : "jie6mm",
+  "description" : "记录一些个人及学习相关笔录",
+  "language" : "zh-hans",
   "plugins":[
-
-  ]
+    "lightbox",
+    "splitter",
+    "chapter-fold",
+    "expandable-chapters",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "anchor-navigation-ex": {
+      "showLevel": true,
+      "showGoTop": true
+    }
+  }
 }
