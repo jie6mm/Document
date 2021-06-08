@@ -4,9 +4,14 @@
   "description" : "记录一些个人及学习相关笔录",
   "language" : "zh-hans",
   "plugins":[
+    // 以弹窗形式查看图片，查看原图
     "lightbox",
+    // 侧边栏(侧边目录)宽度可调节
     "splitter",
-    "chapter-fold"
+    // 导航目录折叠
+    "chapter-fold",
+    // 页面内生成悬浮导航目录
+    "anchor-navigation-ex"
   ],
   "pluginsConfig": {
     "anchor-navigation-ex": {
