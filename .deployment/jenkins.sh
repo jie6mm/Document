@@ -8,16 +8,10 @@
 #*********************************************
 echo "document-jenkins.sh开始执行"
 
-scp -rp ./* root@192.168.50.210:/home/root/app/gitbook/gitbook
-
 cd ./.deployment || exit
-
-pwd
-
-path=$(pwd)
-
-ls -al
 
 chmod a+x gitbook-restart.sh
 
-ssh root@192.168.50.210 "sh ${path}/gitbook-restart.sh"
+scp -rp ./. root@192.168.50.210:/home/root/app/gitbook/gitbook
+
+#ssh root@192.168.50.210 "sh "
