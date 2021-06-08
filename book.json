@@ -1,14 +1,5 @@
 {
   "plugins":[
-    "expandable-chapters",
-    "prism",
-    "-highlight"
-  ],
-  "pluginsConfig": {
-    "prism": {
-      "css": [
-        "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
-      ]
-    }
-  }
+    "expandable-chapters"
+  ]
 }
