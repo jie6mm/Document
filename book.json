@@ -1,9 +1,9 @@
 {
-  "title" : "This Gitbook",
-  "author" : "jie6mm",
-  "description" : "记录一些个人及学习相关笔录",
-  "language" : "zh-hans",
-  "plugins":[
+  "title": "This Gitbook",
+  "author": "jie6mm",
+  "description": "记录一些个人及学习相关笔录",
+  "language": "zh-hans",
+  "plugins": [
     "-search",
     "-lunr",
     "-sharing",
@@ -29,26 +29,39 @@
     "sharing": {
       "douban": false,
       "facebook": false,
-      "google": true,
+      "google": false,
       "hatenaBookmark": false,
       "instapaper": false,
-      "line": true,
-      "linkedin": true,
+      "line": false,
+      "linkedin": false,
       "messenger": false,
       "pocket": false,
       "qq": false,
-      "qzone": true,
+      "qzone": false,
       "stumbleupon": false,
-      "twitter": false,
+      "twitter": true,
       "viber": false,
       "vk": false,
       "weibo": true,
       "whatsapp": false,
       "all": [
-        "douban", "facebook", "google", "hatenaBookmark",
-        "instapaper", "linkedin","twitter", "weibo",
-        "messenger","qq", "qzone","viber","vk","weibo",
-        "pocket", "stumbleupon","whatsapp"
+        "qq",
+        "qzone",
+        "weibo",
+        "douban",
+        "facebook",
+        "twitter",
+        "google",
+        "hatenaBookmark",
+        "instapaper",
+        "linkedin",
+        "messenger",
+        "viber",
+        "vk",
+        "weibo",
+        "pocket",
+        "stumbleupon",
+        "whatsapp"
       ]
     }
   }
