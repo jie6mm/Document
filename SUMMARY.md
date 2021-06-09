@@ -12,3 +12,4 @@
   * [kvm常用命令](kvm/kvm常用命令.md)
 * [gitbook]
   * [book.json](gitbook/book.json.md)
+  * [SUMMARY.md](gitbook/SUMMARY.md)
