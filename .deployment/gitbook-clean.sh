@@ -8,4 +8,6 @@
 #*********************************************
 cd /home/root/app/gitbook/gitbook
 
+shopt -s extglob
+
 rm -rf !(node_modules|_book)
