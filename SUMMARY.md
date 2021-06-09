@@ -1,5 +1,5 @@
 * [介绍](README.md)
-[comment]: <> (* [gitbook-book.json]&#40;book-notes.json.txt&#41;  )
+* [book.json](book.json.md)
 * [Linux](linux/linux.md)
   * [docker](linux/docker)
     * [docker-run](linux/docker/run)
