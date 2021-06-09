@@ -7,3 +7,5 @@
 # Update-Time: -
 #*********************************************
 docker restart gitbook-3.2.1
+
+docker logs gitbook-3.2.1
