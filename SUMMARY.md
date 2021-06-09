@@ -10,7 +10,7 @@
 ## nginx
 * [nginx配置及常用命令](nginx/nginx配置及常用命令.md)
 ## kvm
-  * [kvm常用命令](kvm/kvm常用命令.md)
+* [kvm常用命令](kvm/kvm常用命令.md)
 ## gitbook
-  * [book.json](gitbook/book.json.md)
-  * [SUMMARY.md](gitbook/SUMMARY.md)
+* [book.json](gitbook/book.json.md)
+* [SUMMARY.md](gitbook/SUMMARY.md)
