@@ -22,7 +22,7 @@
   "pluginsConfig": {
     "anchor-navigation-ex": {
       "showLevel": false,
-      "showGoTop": true
+      "showGoTop": false
     },
     "code": {
       "copyButtons": true
