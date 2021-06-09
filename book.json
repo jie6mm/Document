@@ -28,7 +28,7 @@
     },
     "sharing": {
       "douban": false,
-      "facebook": false,
+      "facebook": true,
       "google": false,
       "hatenaBookmark": false,
       "instapaper": false,
@@ -42,7 +42,7 @@
       "twitter": true,
       "viber": false,
       "vk": false,
-      "weibo": true,
+      "weibo": false,
       "whatsapp": false,
       "all": [
         "qq",
@@ -58,7 +58,6 @@
         "messenger",
         "viber",
         "vk",
-        "weibo",
         "pocket",
         "stumbleupon",
         "whatsapp"
