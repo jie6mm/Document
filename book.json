@@ -16,7 +16,8 @@
     "advanced-emoji",
     "klipse",
     "pageview-count",
-    "click-reveal"
+    "click-reveal",
+    "anchor-navigation-ex"
   ],
   "pluginsConfig": {
     "anchor-navigation-ex": {
