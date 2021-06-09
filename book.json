@@ -4,14 +4,56 @@
   "description" : "记录一些个人及学习相关笔录",
   "language" : "zh-hans",
   "plugins":[
+    "-search",
+    "-lunr",
+    "-sharing",
+    "search-pro",
+    "sharing-plus",
     "lightbox",
     "splitter",
-    "chapter-fold"
+    "chapter-fold",
+    "code",
+    "advanced-emoji",
+    "github",
+    "klipse",
+    "pageview-count",
+    "click-reveal"
   ],
   "pluginsConfig": {
     "anchor-navigation-ex": {
       "showLevel": false,
       "showGoTop": true
+    },
+    "code": {
+      "copyButtons": true
+    },
+    "github": {
+      "url": "https://github.com/jie6mm"
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": true,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": true,
+      "linkedin": true,
+      "messenger": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": true,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "douban", "facebook", "google", "hatenaBookmark",
+        "instapaper", "linkedin","twitter", "weibo",
+        "messenger","qq", "qzone","viber","vk","weibo",
+        "pocket", "stumbleupon","whatsapp"
+      ]
     }
   }
 }
