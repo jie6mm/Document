@@ -8,10 +8,12 @@
 #*********************************************
 echo "document-jenkins.sh开始执行"
 
-chmod a+x .deployment/gitbook-restart.sh
-
-scp -rp ./* root@192.168.50.210:/home/root/app/gitbook/gitbook
+chmod a+x .deployment/gitbook-docker-restart.sh
 
 scp -rp ./.deployment root@192.168.50.210:/home/root/app/gitbook/gitbook
 
-ssh root@192.168.50.210 "sh /home/root/app/gitbook/gitbook/.deployment/gitbook-restart.sh"
+ssh root@192.168.50.210 "sh /home/root/app/gitbook/gitbook/.deployment/gitbook-clean.sh"
+
+scp -rp ./* root@192.168.50.210:/home/root/app/gitbook/gitbook
+
+ssh root@192.168.50.210 "sh /home/root/app/gitbook/gitbook/.deployment/gitbook-docker-restart.sh"
