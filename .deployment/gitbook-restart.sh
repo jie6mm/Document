@@ -8,4 +8,4 @@
 #*********************************************
 docker restart gitbook-3.2.1
 
-docker logs gitbook-3.2.1
+docker logs --since 3m gitbook-3.2.1
