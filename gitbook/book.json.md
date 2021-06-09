@@ -1,3 +1,19 @@
+<details>
+<summary>文章概要:</summary>
+<pre hidden>
+information:
+    author: jie6mm
+    title: book.json
+    desc:
+    type: gitbook
+    tags:
+        - gitbook
+    series: gitbook
+    date: 2021-06-09 10:15:00
+</pre>
+</details>
+
+# book.json
 
 ```json
 {

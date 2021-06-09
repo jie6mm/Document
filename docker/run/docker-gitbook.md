@@ -5,9 +5,8 @@ information:
     author: jie6mm
     title: docker-gitbook-run
     desc:
-    type: linux/docker/gitbook
+    type: docker/gitbook
     tags:
-        - linux
         - docker
         - gitbook
     series: docker-run

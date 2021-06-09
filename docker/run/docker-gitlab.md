@@ -5,9 +5,8 @@ information:
     author: jie6mm
     title: docker-gitlab-run
     desc:
-    type: linux/docker/gitlab
+    type: docker/gitlab
     tags:
-        - linux
         - docker
         - gitlab
     series: docker-run

@@ -5,9 +5,8 @@ information:
     author: jie6mm
     title: docker-mysql-run
     desc:
-    type: linux/docker/mysql
+    type: docker/mysql
     tags:
-        - linux
         - docker
         - mysql
     series: docker-run

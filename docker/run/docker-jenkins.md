@@ -5,9 +5,8 @@ information:
     author: jie6mm
     title: docker-jenkins-run
     desc:
-    type: linux/docker/jenkins
+    type: docker/jenkins
     tags:
-        - linux
         - docker
         - jenkins
     series: docker-run

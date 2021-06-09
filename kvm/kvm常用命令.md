@@ -5,9 +5,9 @@ information:
     author: jie6mm
     title: kvm常用命令
     desc:
-    type: linux/kvm
+    type: kvm
     tags:
-        - linux
+        - kvm
     series:
     date: 2021-05-12 15:43:00
 </pre>

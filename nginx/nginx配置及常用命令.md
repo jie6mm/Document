@@ -5,9 +5,8 @@ information:
     author: jie6mm
     title: nginx配置及常用命令
     desc:
-    type: linux/nginx
+    type: nginx
     tags:
-        - linux
         - nginx
     series: nginx
     date: 2021-06-01 13:51:00
