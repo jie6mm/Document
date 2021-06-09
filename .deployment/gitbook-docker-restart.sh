@@ -6,6 +6,10 @@
 # Create-Time: 2021-06-04 17:51:00
 # Update-Time: -
 #*********************************************
-docker restart gitbook-3.2.1
+#docker restart gitbook-3.2.1
+
+docker exec gitbook-3.2.1 gitbook init
+
+docker exec gitbook-3.2.1 gitbook save
 
 docker logs -t --since 1m gitbook-3.2.1
