@@ -13,7 +13,6 @@
     "chapter-fold",
     "code",
     "advanced-emoji",
-    "github",
     "klipse",
     "pageview-count",
     "click-reveal"
@@ -25,9 +24,6 @@
     },
     "code": {
       "copyButtons": true
-    },
-    "github": {
-      "url": "https://github.com/jie6mm"
     }
   }
 }
