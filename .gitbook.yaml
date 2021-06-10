@@ -1,5 +1,0 @@
-root: ./
-
-structure:
-  readme: ./gitbook-config/java.md
-  summary: ./gitbook-config/SUMMARY.md
