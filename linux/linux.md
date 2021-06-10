@@ -9,5 +9,4 @@ information:
 </pre>
 </details>
 
-# linux
-linux下相关命令服务与应用
+# LINUX

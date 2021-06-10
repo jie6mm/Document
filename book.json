@@ -1,5 +1,5 @@
 {
-  "title": "This Gitbook",
+  "title": "jie6mm",
   "author": "jie6mm",
   "description": "记录一些个人及学习相关笔录",
   "language": "zh-hans",
@@ -28,40 +28,16 @@
       "copyButtons": true
     },
     "sharing": {
-      "douban": false,
       "facebook": true,
-      "google": false,
-      "hatenaBookmark": false,
-      "instapaper": false,
-      "line": false,
-      "linkedin": false,
-      "messenger": false,
-      "pocket": false,
-      "qq": false,
-      "qzone": false,
-      "stumbleupon": false,
       "twitter": true,
-      "viber": false,
-      "vk": false,
-      "weibo": false,
-      "whatsapp": false,
       "all": [
-        "qq",
-        "qzone",
         "weibo",
         "douban",
-        "facebook",
-        "twitter",
-        "google",
-        "hatenaBookmark",
-        "instapaper",
+        "qq",
+        "qzone",
         "linkedin",
-        "messenger",
-        "viber",
-        "vk",
-        "pocket",
-        "stumbleupon",
-        "whatsapp"
+        "twitter",
+        "facebook"
       ]
     }
   }
