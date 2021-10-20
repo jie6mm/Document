@@ -59,6 +59,13 @@ information:
 --with-stream_ssl_preread_module
 ```
 
+## make & start
+```shell
+make && make install
+cd objs
+./nginx
+```
+
 ## nginx-常用命令
 
 ......
