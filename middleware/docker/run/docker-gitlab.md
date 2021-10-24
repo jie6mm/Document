@@ -34,7 +34,7 @@ docker run --detach \
 --restart always \
 --publish {port}:443 \
 --publish {port}:3800 \
---publish {port}:22 
+--publish {port}:22 \
 --volume {gitlab-path}/config:/etc/gitlab \
 --volume {gitlab-path}/logs:/var/log/gitlab \
 --volume {gitlab-path}/data:/var/opt/gitlab \
@@ -48,6 +48,9 @@ vim {gitlab-path}/config/gitlab.rb
 ```text
 external_url '{access-path}'
 gitlab_rails['gitlab_shell_ssh_port'] = {22-mapping-port}
+nginx['enable'] = true
+# http -> https
+nginx['redirect_http_to_https'] = true
 nginx['redirect_http_to_https_port'] = {3800-mapping-port}
 nginx['listen_port'] = {3800-mapping-port}
 ```
