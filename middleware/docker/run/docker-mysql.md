@@ -34,6 +34,8 @@ docker run -d \
 -p {port}:3306 \
 --restart=always \
 -e MYSQL_ROOT_PASSWORD=123456 \
+-v /etc/localtime:/etc/localtime:ro \
+-v /etc/timezone/timezone:/etc/timezone:ro \
 -v {mysql-path}/logs:/logs \
 -v {mysql-path}/data/mysql:/var/lib/mysql \
 -v {mysql-path}/conf/my.cnf:/etc/mysql/my.cnf \

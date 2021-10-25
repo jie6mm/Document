@@ -33,6 +33,8 @@ docker run -d \
 --restart always \
 --name {name} \
 -p {port}:4000  \
+-v /etc/localtime:/etc/localtime:ro \
+-v /etc/timezone/timezone:/etc/timezone:ro \
 -v {gitbook-path}/gitbook:/srv/gitbook \
 -v {gitbook-path}/html:/srv/html \
 fellah/gitbook:{tag}

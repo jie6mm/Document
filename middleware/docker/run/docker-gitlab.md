@@ -35,6 +35,8 @@ docker run --detach \
 --publish {port}:443 \
 --publish {port}:3800 \
 --publish {port}:22 \
+-v /etc/localtime:/etc/localtime:ro \
+-v /etc/timezone/timezone:/etc/timezone:ro \
 --volume {gitlab-path}/config:/etc/gitlab \
 --volume {gitlab-path}/logs:/var/log/gitlab \
 --volume {gitlab-path}/data:/var/opt/gitlab \

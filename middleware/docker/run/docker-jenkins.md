@@ -31,6 +31,8 @@ docker run \
 --restart=always \
 -p {port}:8080 \
 -p {port}:50000 \
+-v /etc/localtime:/etc/localtime:ro \
+-v /etc/timezone/timezone:/etc/timezone:ro \
 -v {jenkins-path}:/var/jenkins_home \
 -v /var/run/docker.sock:/var/run/docker.sock \
 --env JAVA_OPTS=-Dhudson.security.csrf.GlobalCrumbIssuerConfiguration.DISABLE_CSRF_PROTECTION=true \
