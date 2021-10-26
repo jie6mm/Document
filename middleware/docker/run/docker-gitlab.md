@@ -53,7 +53,6 @@ gitlab_rails['gitlab_shell_ssh_port'] = {22-mapping-port}
 nginx['redirect_http_to_https_port'] = {3800-mapping-port}
 nginx['listen_port'] = {3800-mapping-port}
 
-unicorn['worker_processes'] = 4
 postgresql['shared_buffers'] = "256MB"
 sidekiq['concurrency'] = 12
 prometheus_monitoring['enable'] = false
