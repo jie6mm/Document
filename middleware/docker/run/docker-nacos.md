@@ -27,23 +27,34 @@ docker pull nacos/nacos-server:{tag}
 
     
 ## docker run
+```shell
+docker run -d \
+--name {name} \
+--restart always \
+-p {prot}:8848 \
+-v /etc/localtime:/etc/localtime:ro \
+-v /etc/timezone/timezone:/etc/timezone:ro \
+-e MODE=standalone \
+nacos/nacos-server:{tag}
+```
+
+```shell
+docker cp {name}:/home/nacos/conf {host-path}
+```
 
 ```shell
 docker run -d \
 --name {name} \
 --restart always \
--p {port}:8848 \
+-p {prot}:8848 \
+-v {host-path}:/home/nacos/conf \
 -v /etc/localtime:/etc/localtime:ro \
 -v /etc/timezone/timezone:/etc/timezone:ro \
--e MODE= \
--e SPRING_DATASOURCE_PLATFORM= \
--e MYSQL_SERVICE_HOST= \
--e MYSQL_SERVICE_PORT= \
--e MYSQL_SERVICE_DB_NAME= \
--e MYSQL_SERVICE_USER= \
--e MYSQL_SERVICE_PASSWORD= \
+-e MODE=standalone \
 nacos/nacos-server:{tag}
 ```
 
 ## -e 参考(最底部)
-[https://hub.docker.com/r/nacos/nacos-server](https://hub.docker.com/r/nacos/nacos-server)
+* -e MODE=standalone \
+* cluster/standalone default cluster
+* [https://hub.docker.com/r/nacos/nacos-server](https://hub.docker.com/r/nacos/nacos-server)
