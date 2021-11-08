@@ -59,7 +59,7 @@ nacos/nacos-server:{tag}
 * cluster/standalone default cluster
 * [https://hub.docker.com/r/nacos/nacos-server](https://hub.docker.com/r/nacos/nacos-server)
 
-mysql
+## mysql
 ```sql
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
