@@ -1,6 +1,6 @@
 # 免密登录(ssh-keygen)
 ```shell
-# 生成密钥
+# 生成密钥，一路回车
 ssh-keygen -t rsa -C "notes"
 # 将公钥copy到指定计算机
 ssh-copy-id -i /root/.ssh/id_rsa.pub root@{targetIp}
